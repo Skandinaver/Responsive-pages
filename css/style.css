@@ -14,9 +14,9 @@
     
     height: auto;
     width: 100%;
-    
-    display: block;
-    
+    align-content: center;
+    display: flex;
+    justify-content: center;
     margin-top: 2%;
 }
 
@@ -94,6 +94,7 @@ img{
 
 a
 {
+    color: white;
     text-decoration: none;
 
 }
