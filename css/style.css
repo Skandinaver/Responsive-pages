@@ -1,3 +1,6 @@
+html{
+    font-family: 'Oswald', sans-serif;
+}
 .logo
 { 
     display: inline-block;
@@ -10,7 +13,7 @@
 
 .calendarSection{
     
-    height: auto;
+    height: 100%;
     width: 100%;
     align-content: center;
     display: flex;
@@ -58,9 +61,10 @@
     color: white;
     height: auto;
     width: 100%;
-    display: block;    
-    margin-top: 2%;
-   
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 .textSection
 {
@@ -106,4 +110,157 @@ a:hover
 color: white;
 text-decoration: underline;
 
+}
+
+
+#form{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    display: block;
+    
+    
+   
+}
+
+h1{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#form h1{
+
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+}
+#submit{
+
+    font-size: 20px;
+    padding: 1%;
+    font-family: 'Oswald',sans-serif;
+    border: black 2px;
+    background-color: lightgrey;
+    border-radius: 6px/6px;
+    width: 12vw;
+    font-weight: bold;
+    margin: 10px;
+}
+#mail{
+    font-size: 1vw;
+    padding: 1%;
+    border: black 2px;
+    font-family: 'Oswald', sans-serif;
+    width: 18vw;
+    background-color: #d3d3d3;
+    border-radius: 6px/6px;
+}
+label{
+    font-size: 1.3vw;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+#subject{
+    font-size: 1vw;
+    padding: 1%;
+    border: black 2px;
+    font-family: 'Oswald', sans-serif;
+    width: 18vw;
+    background-color: lightgrey;
+    border-radius: 6px/6px;
+}
+#enquiry{
+    font-size: 1vw;
+    padding: 0;
+    border: black 2px;
+    font-family: 'Oswald', sans-serif;
+    width: 20vw;
+    height: 6vw;
+    background: #d3d3d3;
+    border-radius: 6px/6px;
+}
+@media(max-width: 600px){
+    .footer .innerFooter{
+        width: 60%;
+    }
+
+
+}
+
+
+.innerFooter{
+    display: block;
+    
+    width: 100%;
+    padding-top: 5%;
+    
+}
+.innerFooter .footersecond{
+
+    width: 10%;
+    margin-right: 10%;    
+    height: auto;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+
+
+.innerFooter .footersecond h1{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    color: white;   
+    width: 100%;
+    
+    margin-bottom: 8%;
+    margin-top: -15%;
+}
+
+.innerFooter .footersecond a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: white;
+
+    width: 100%;
+    padding: 5px;
+    font-weight: 200;
+}
+.fab{
+    font-size: 35px;
+}
+.innerFooter .footersecond li{
+    
+    padding: 5px;
+}
+@media(max-width: 600px){
+    .innerFooter{
+        width: 60%;
+    }
+
+    .innerFooter .logoSector,
+    .innerFooter .footersecond{
+        width:100%;
+        margin-bottom: 30%;
+    }
+}
+
+
+.bottom-bar{
+    display: block;
+    background-color: rgb(2,43,58);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    color: rgb(225,229,242);
+    letter-spacing: 3px;
+    font-size: 10px;
+    text-align: center;
+}
+.imageBox{
+
+    display: flex;
+    align-content: row;
 }
